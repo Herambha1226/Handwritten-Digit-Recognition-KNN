@@ -1,0 +1,6 @@
+
+NumPy
+Scikit-learn
+OpenCV
+Matplotlib
+pyttsx3
