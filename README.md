@@ -94,9 +94,9 @@ git clone https://github.com/Herambha1226/Handwritten-Digit-Recognition-KNN.git
 Before running the real-time digit recognition system, you must train the KNN model.
 
 Run the following command:
-
+```
 python dataset/load-dataset.py
-
+```
 
 This will:
 
@@ -106,13 +106,20 @@ This will:
 - Save trained model
 
 ---
+
+# Run Real-Time Digit Recognition
+
+After training the model, start the webcam digit recognition system:
+
+use command:
+```
+python src/realtime_camera.py
+```
+
+---
 # Developed By
 
 Herambha Karthikeya Guptha
 
 ---
-
-# Run Real-Time Digit Recognition
-
-After training the model, start the webcam digit recognition system:
 
